@@ -5,11 +5,13 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 
 <body>
-
 <div class="container">
   <h2>Main</h2>
   <form action="/dbs" method="post">
     <p><input type="submit" value="DBS Share Prediction"></p>
+  </form>
+    <form action="/credit" method="post">
+    <p><input type="submit" value="Creditability Prediction"></p>
   </form>
     <form action="/" method="post">
     <p><input type="submit" value="Logout"></p>
